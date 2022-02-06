@@ -60,7 +60,16 @@
   <h2 class="h6 pt-4 pb-3 mb-4 border-bottom" style="text-align: center;">Contents</h2>
   <nav class="small" id="toc">
     <ul class="list-unstyled">
+
       <!-- 列表 -->
+      <li class="my-2">
+        <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#Calendar-collapse" aria-controls="Calendare-collapse">Calendar</button>
+        <ul class="list-unstyled ps-3 collapse" id="Calendar-collapse">
+          <li><a class="d-inline-flex align-items-center rounded" href="#calendar">Calendar&Time Analyse</a></li>
+          <li><a class="d-inline-flex align-items-center rounded" href="https://calendar.google.com/calendar/u/0/r">Google-Calendar</a></li>
+        </ul>
+      </li>
+
       <li class="my-2">
         <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#Graduation-Project-collapse" aria-controls="Graduation-Project-collapse">Graduation Project</button>
         <ul class="list-unstyled ps-3 collapse" id="Graduation-Project-collapse">
@@ -78,16 +87,6 @@
         </ul>
       </li>
 
-      <li class="my-2">
-        <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#Calendar-collapse" aria-controls="Calendare-collapse">Calendar</button>
-        <ul class="list-unstyled ps-3 collapse" id="Calendar-collapse">
-          <li><a class="d-inline-flex align-items-center rounded" href="#calendar">Calendar</a></li>
-          <li><a class="d-inline-flex align-items-center rounded" href="https://calendar.google.com/calendar/u/0/r">Daily-Plan</a></li>
-          <li><a class="d-inline-flex align-items-center rounded" href="#calendar">Time Analyse</a></li>
-        </ul>
-      </li>
-
-
     </ul>
   </nav>
   <div>
@@ -99,6 +98,53 @@
 <div class="bd-cheatsheet container-fluid bg-body">
   <section id="content">
     <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Contents</h2>
+
+    <article class="my-3" id="calendar">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3>Calendar</h3>
+        <a class="d-flex align-items-center" href="#" style="color:blue;text-decoration:none;" >Documentation</a>
+      </div>
+
+      <div>
+        <main>
+          <h1>NCEPU(BJ)</h1>
+          <p class="fs-5 col-md-8">Admission</p>
+      
+          <div class="mb-5">
+            <a href="https://www.ncepu.edu.cn/" class="btn btn-primary btn-lg px-4">NECPU</a>
+          </div>
+      
+          <hr class="col-3 col-md-2 mb-5">
+      
+          <div class="row g-5">
+            <div class="col-md-6">
+              <h2>scores</h2>
+              <p>
+                
+              </p>
+              <ul class="icon-list">
+                <li>scores==top1</li>
+                <li><a href="D:/MY_EARTH/MANAGER_MY_EARTH.xlsx" style="color:blue;text-decoration:none;">Time Analyse</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-6">
+              <h2>master degree</h2>
+              <p>
+                Hello,Genius!
+              </p>
+              <ul class="icon-list">
+                <li><a href="#" style="color:blue;text-decoration:none;">Zhengzhi</a></li>
+                <li><a href="#" style="color:blue;text-decoration:none;">Mathematics II</a></li>
+                <li><a href="#" style="color:blue;text-decoration:none;">English</a></li>
+                <li><a href="#" style="color:blue;text-decoration:none;">Major</a></li>
+              </ul>
+            </div>
+          </div>
+        </main>
+        <hr style="height: 1px; color:black;">
+      </div>
+    </article>
 
     <article class="my-3" id="GP-Paper">
       <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
@@ -354,54 +400,6 @@
         <hr style="height: 1px; color:black;">
       </div>
     </article>
-
-    <article class="my-3" id="calendar">
-      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-        <h3>Calendar</h3>
-        <a class="d-flex align-items-center" href="#" style="color:blue;text-decoration:none;" >Documentation</a>
-      </div>
-
-      <div>
-        <main>
-          <h1>NCEPU(BJ)</h1>
-          <p class="fs-5 col-md-8">Admission</p>
-      
-          <div class="mb-5">
-            <a href="https://www.ncepu.edu.cn/" class="btn btn-primary btn-lg px-4">NECPU</a>
-          </div>
-      
-          <hr class="col-3 col-md-2 mb-5">
-      
-          <div class="row g-5">
-            <div class="col-md-6">
-              <h2>scores</h2>
-              <p>
-                
-              </p>
-              <ul class="icon-list">
-                <li>scores==top1</li>
-                <li><a href="D:/MY_EARTH/MANAGER_MY_EARTH.xlsx" style="color:blue;text-decoration:none;">Python，Django</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-md-6">
-              <h2>master degree</h2>
-              <p>
-                Hello,Genius!
-              </p>
-              <ul class="icon-list">
-                <li><a href="#" style="color:blue;text-decoration:none;">Zhengzhi</a></li>
-                <li><a href="#" style="color:blue;text-decoration:none;">Mathematics II</a></li>
-                <li><a href="#" style="color:blue;text-decoration:none;">English</a></li>
-                <li><a href="#" style="color:blue;text-decoration:none;">Major</a></li>
-              </ul>
-            </div>
-          </div>
-        </main>
-        <hr style="height: 1px; color:black;">
-      </div>
-    </article>
-
 
   </section>
 
