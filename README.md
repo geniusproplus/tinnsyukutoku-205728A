@@ -1,1 +1,1 @@
-https//:nice.genius.prpuls.top
+https://nice.geniuspropuls.top/
